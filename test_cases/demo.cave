@@ -1,0 +1,80 @@
+
+bool   _global_bool = true;
+int    _global_int = 0x1337;
+float  _global_float = 0.0;
+char   _global_char = 'c';
+string _global_string = "this is a string";
+
+string global_array[100] = {"1", "2", "3"};
+int    global_array_int[20] = {69, 69, 69, 69};
+int    test_scope[20] = {69, 69, 69, 69};
+
+int    global_scope = 1337;
+
+struct user_defined1 {
+	int x;
+	float y;
+	string z[100];
+};
+
+struct user_defined2 {
+	int inside_var;
+	int inside_var2;
+	fun string f() { inside_var = 3; inside_var2 = 1; return ""; }
+};
+
+fun int return_int_func()
+{
+	const int a = 0;
+	test_scope[0] = 1;
+	return 1;
+}
+
+fun float return_float_func(int param1)
+{
+	return 3.14;
+}
+
+fun char return_char_func(float __param1, char param2)
+{
+	return 'x';
+}
+
+fun string return_string_func(string param)
+{
+	struct user_defined1 test;
+	test.x = 1; 
+	test.z[99] = "asdf";
+	return "string";
+}
+
+fun int TEST(int a, int b, int c)
+{
+
+}
+
+fun int main()
+{
+	int global_scope; 
+	global_scope = 1;
+	if(global_scope > 5)
+	{
+		int y = 2;
+	} else {
+		printf("ASDf");
+	}
+	
+	for(int i = 0; i < 5; i++)
+	{
+		int vec[10];
+		printf("asdf");
+	}
+	int tvect[3];
+	float x;
+	int GGG = 0;
+	int kkk;
+	kkk = 5 * 3 - 34  - 4;
+	GGG = 15 - 34 + 4;
+
+	x = Eval( 1.23 + 1.1);
+}

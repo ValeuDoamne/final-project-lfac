@@ -1,0 +1,47 @@
+//declarati variabilele de mai jos cu sintaxa proprie, desigur
+int x = 23;
+//declarare variabila de 2 ori
+int x1;
+int x1;
+
+int x2;
+float f1 = 50.0;
+//string s = "ana"’;
+
+//definiti urmatoarele functii, cu sintaxa  limbajului vostru pentru declarare functie de 2 ori
+fun int testFunction(int x, float z) {
+  // puteti pune orice aici 
+}
+
+fun int testFunction(int x, float z) {
+  //puteti pune orice aici
+}
+
+fun int testFunction(float x, float z) {
+  //puteti pune orice aici
+}
+
+fun int test(int param) {
+ // puteti pune orice aici
+}
+
+//in functia voastra principala, scrieti urmatoarele instructiuni
+fun int main () {
+        x3 = x + 2;  //variabila care nu a fost declarata
+//	f1 = x + x2;  //tipuri de date care nu corespund
+//	f1 = test (5) + x;
+	x = test(5) + f1; //functie nedefinita
+	//x = s + f1; //sa aiba acelasi tip
+        test(f1);  //verificare tip parametri functie
+	test(5,f1);
+	TypeOf(f1+x);
+	Eval(f1);
+	Eval(f1+x);
+	test(5+f1);
+}
+
+//Respectati sintaxa data si pastrati inputul oferit, doar adaptati la sintaxa voastra
+//Mai puteti includeti orice alte teste aveti de facut astfel incat sa se poata observa de la inceput ce verificari semantice ati facut voi. In acet fel pot vedea usor si rapid ce puncte din tema ati facut si ce nu, si calcula apoi punctajul conform cu ce ati facut.
+
+
+

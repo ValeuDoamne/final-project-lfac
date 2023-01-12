@@ -1,0 +1,8 @@
+
+
+::::::::::::::::  Symbol Function Table ::::::::::::::::::
+Type		Name		Parameters
+int		testFunction		(int x, float z)
+int		testFunction		(int x, int z)
+int		test		(int param1, int param2, float f)
+int		main		()

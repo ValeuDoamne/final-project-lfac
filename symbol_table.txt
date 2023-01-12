@@ -1,0 +1,31 @@
+::::::::::::::::  Symbol Variable Table ::::::::::::::::::
+Scope		Type		IsConst		Name			IsArray		Value
+0		int		0		x			0		0
+0		int		0		x1			0		500
+0		int		0		x2			0		30
+0		int		0		y			0		100
+0		int		0		arr			1		10 { }
+0		float		0		f			0		20
+0		float		0		f1			0		0
+0		float		0		array2			1		100 { }
+0		float		0		arr3			1		20 { 1.53, 2.4, 3.3, 4.12}
+0		bool		0		is_true			0		
+0		string		0		i_am_a_string			0		whydoweliveherejusttosuffer
+0		char		0		i_am_a_char			0		X
+2		int		0		x			0		0
+2		float		0		z			0		0
+3		int		0		x			0		0
+3		int		0		z			0		0
+3		int		0		papa			0		123
+4		int		0		param1			0		0
+4		int		0		param2			0		0
+4		float		0		f			0		0
+4		C1		0		test1			0		
+4		C2		0		test2			0		
+5		int		0		asd			0		0
+
+
+::::::::::::::::  Symbol Structure Table ::::::::::::::::::
+Name		Fields			Methods
+C1		int x			float a(int a)
+C2		int pp			

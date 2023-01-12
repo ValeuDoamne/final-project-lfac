@@ -1,0 +1,93 @@
+//Comentariile semnifica faptul ca urmeaza INDICATII pe care desigur nu le veti include in fisierul vostru final de input pentru verificarea sintaxei corecte
+//Acest fisier ar trebui sa se compileze fara nici o eroare. 
+//Este structurat conform cu cerinta (cele 4 sectiuni):
+//Your programs should be structured in 4 sections: a section for global variables, a section for functions, a section for user defined data types and a special function representing the entry point of the program
+//Adaptati inputul de aici la sintaxa proprie, desigur
+
+
+//section for global variables
+int x ;
+int x1;
+int x2;
+int y;
+int arr[10];
+//in plus mai adaugati voi declaratii de  variabile de toate tipurile de date
+float f = 20.0 ;
+float f1;
+float array2[100];
+float arr3[20] = { 1.53, 2.4, 3.3, 4.12 };
+bool is_true = true;
+string i_am_a_string = "whydoweliveherejusttosuffer";
+char   i_am_a_char   = 'X';
+
+
+struct C1 {
+	int x;
+	fun float a(int a) {  x = 2; }
+};
+
+struct C2 {
+	int pp;
+};
+
+
+//section for functions
+fun int testFunction(int x, float z) {
+  // puteti pune orice aici 
+	return 12;
+}
+
+fun int testFunction(int x, int z) {
+  //puteti pune orice aici
+	int papa = 123;
+	return papa;
+}
+
+fun int test(int param1, int param2, float f) {
+ // puteti pune orice aici
+ 	if(param1 < param2) { 
+		return param1;
+	}
+	return param2;
+}
+
+//section for user defined data types
+//niste tipuri de date definite de utilizator clase, struct, ce mai aveti voi
+
+
+
+//section for special function representing the entry point of the program
+fun int main () {
+         //1. exemple de declaratii/initializari/utilizari de obiecte 
+	struct C1 test1;
+	struct C2 test2;
+	test1.x=10;
+	int asd; 
+	TypeOf(asd);
+          //2. exemple de instructiuni de asignare; folositi in partea stanga variabile avand toate tipurile de date; folositi in partea stanga orice alt element posibil in limbajul vostru  
+         //ex:
+         f = 30.0 ; 
+         //etc
+
+         //3. exemple de instructiuni  for, while if, etc
+      
+        //4. urmatorul bloc de cod, cu sintaxa voastra proprie, desigur
+
+        x = 10;
+	x1 = 20;
+	x2 = 30;
+	y = 100;
+        if (x1 + test(x1,x2,f) < 5 + x1 && ((x > 2 || x1 < 4+x2) || x==2)) {
+		x = 2;
+		//si alte lucruri aici
+        }
+        x = test(test(x1,3,f)+2, y+4, 0.1) + 30 - y*arr[2] - 10;
+	x1 = x*100 + 5 * 100 + arr[2];
+	Eval(x*10 - 100);
+	Eval(x1);
+	Eval(x2* 10 - 200) ;
+	Eval(x+ test(x1,x,f)) ; 	
+	TypeOf(x+23);
+	TypeOf(f - 30.0);
+
+}
